@@ -13,7 +13,7 @@ app.listen(portNumber, function () {
 
 //PathLocationStrategy
 app.get('/*', function (req, res) {
-    res.sendFile(path.join(__dirname + '/dist/index.html'));
+    res.sendFile(path.join(__dirname + '/dist/heroku-test-app/index.html'));
 });
 
 
