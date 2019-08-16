@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/dist'));
 const portNumber = process.env.PORT || 8080;
 
 app.listen(portNumber, function () {
-    console.log('Node Server.js Listening on port ' + listener.address().port); //Listening on port 8888
+    console.log('Node Server.js Listening on port ' + portNumber); //Listening on port 8080
 });
 
 //PathLocationStrategy
